@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Arslan Khan",
+    "price": "70 Price per Hour",
+    "detail": "Pest Control",
+    "image": "https://th.bing.com/th/id/R.4cf9041f21ec3b8ede9de8c4567249c0?rik=Ujtr8SiZjFGX%2fA&pid=ImgRaw&r=0"
+  },
+  {
+    "name": "Ali Hassan",
+    "price": "60 Price per Hour",
+    "detail": "Electrical Services",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Abdullah Ali",
+    "price": "70 Price per Hour",
+    "detail": "Computer Services",
+    "image": "./rr3.png"
+  },
+  {
+    "name": "Saad Malik",
+    "price": "20 Price per Hour",
+    "detail": "Cleaning Services",
+    "image": "./r4.png"
+  },
+  {
+    "name": "Bilal Akram",
+    "price": "35 Price per Hour",
+    "detail": "Carpentry Services",
+    "image": "./r5.png"
+  },
+  {
+    "name": "Imran Ahmed",
+    "price": "40 Price per Hour",
+    "detail": "Car Services",
+    "image": "./r6.png"
+  }
+]

@@ -1,0 +1,128 @@
+/* left side */
+.a-left {
+  gap: 2rem;
+}
+
+.parentPage {
+  background-color: #373737;
+  margin: 0;
+  padding: 0;
+  /* background-image: url("C:/Users/Junaid/Desktop/Project_1/public/metamaskback.png"); */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.Auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  gap: 4rem;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.Auth > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Webnamee{
+  font-size: 1.1rem;
+  color: wheat;
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+.Webnamee1 > h1 {
+  font-size: 3rem;
+  background-color: red;
+
+  /* Create the gradient. */
+  background-image: var(--buttonBg);
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.Webnamee1 > h1 {
+  color: white;
+}
+
+.Webnamee1 > h1 {
+  margin-top: 0%;
+}
+
+.Webnamee1 > h6 {
+  font-size: 0.85rem;
+}
+
+.f-wrapperr {
+  text-align: right;
+  position: fixed;
+}
+
+.f-right {
+  text-align: right;
+  margin-top: 2rem;
+}
+
+.headerr {
+  position: relative;
+}
+
+.h1 {
+  font-size: large;
+  color: white;
+}
+
+.secondaryText {
+  color: rgb(140 139 139);
+  font-size: 0.9rem;
+}
+
+.link {
+  background: linear-gradient(135deg, purple, blue);
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 4.1rem;
+  width: 57%;
+  transition: 0.3s ease-in-out;
+}
+
+.link:hover {
+  background: linear-gradient(135deg, blue, purple);
+  transform: scale(1.1);
+}
+
+.button1_meta {
+  padding: 10px 20px;
+  font-size: 14px;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-left: 4.1rem;
+  background: #838282;
+}
+
+.button1_meta:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}

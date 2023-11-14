@@ -1,0 +1,48 @@
+.GigPrice_desc {
+  height: 100vh;
+  background-color: var(--background);
+  position: relative;
+}
+
+.gpd_form {
+  position: absolute;
+  background-color: #2e2d2d;
+  border-radius: 1rem;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.price {
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  justify-content: center;
+  align-items: center;
+}
+.price_input {
+  border: none;
+  outline: none;
+  background-color: #373737;
+  color: #eff0f2;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.gig_desc {
+  width: 300px;
+  height: 180px;
+  resize: none;
+}

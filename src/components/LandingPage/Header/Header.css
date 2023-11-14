@@ -1,0 +1,68 @@
+.h-wrapper {
+  color: white;
+  z-index: 99;
+}
+
+.logo-title {
+  position: relative;
+  z-index: 1;
+}
+
+.logo-title > h1 {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #FFA500;
+  letter-spacing: 0.2rem;
+}
+
+.circle {
+  height: 1rem;
+  width: 1rem;
+  background: white;
+  border-radius: 99px;
+  position: absolute;
+  right: 9%;
+  top: 19%;
+  z-index: -1;
+}
+
+.h-container {
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--secondary);
+}
+
+.h-menu {
+  gap: 2rem;
+}
+
+.h-menu > *:hover {
+  cursor: pointer;
+}
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+  .h-menu {
+    z-index: 99;
+    color: var(--black);
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+    background: white;
+    flex-direction: column;
+    font-weight: 500;
+    gap: 2rem;
+    padding: 3rem;
+    border-radius: 10px;
+    align-items: flex-start;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    transition: all 300ms ease-in;
+  }
+}

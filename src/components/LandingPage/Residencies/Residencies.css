@@ -1,0 +1,44 @@
+.r-container {
+  overflow: hidden;
+  position: relative;
+}
+.r-head {
+  margin-bottom: 2rem;
+}
+
+
+
+.swiper-horizontal {
+  overflow: visible;
+}
+
+.rbuttons {
+  gap: 1rem;
+  top: -4rem;
+  right: 0;
+}
+.rbuttons button {
+  font-size: 1.2rem;
+  padding: 0.2rem 0.8rem;
+  color: blue;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+.rbuttons > :nth-child(1) {
+  background-color: white;
+}
+
+.rbuttons > :nth-child(2) {
+  background-color: white;
+}
+
+@media (max-width: 680px) {
+  .r-head {
+    align-items: center;
+  }
+  .r-buttons {
+    position: initial;
+  }
+}

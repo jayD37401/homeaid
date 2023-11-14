@@ -1,0 +1,115 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  flex: 1;
+  background-color: #373737;
+  position: relative;
+}
+
+.Header {
+  position: absolute;
+  color: #ffa500;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.card_heading {
+  color: #eff0f2;
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.infoForm_reg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.infoForm_reg > div {
+  display: flex;
+  gap: 0.5rem;
+  height: 2rem;
+  width: 80%;
+}
+
+.infoInput_reg {
+  border: none;
+  outline: none;
+  background-color: #373737;
+  color: #eff0f2;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+  margin-left: auto;
+}
+
+.infoButton {
+  width: 6rem;
+  height: 2rem;
+  align-self: flex-end;
+}
+
+.regForm {
+  height: 353;
+  width: 287;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2e2d2d;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.regForm > div {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-wrapper {
+  text-align: right;
+}
+
+.f-right {
+  text-align: right;
+  margin-top: 2rem;
+}
+
+.headerr {
+  position: relative;
+}
+
+.h {
+  font-size: medium;
+}
+
+.paddings2 {
+  padding: 1rem;
+}
+
+.button1_reg {
+  width: 6rem;
+  height: 2rem;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: #838282;
+  transition: all 100ms ease-out;
+}
+
+.button1_reg:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 4px solid #373737;
+}

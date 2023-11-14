@@ -1,0 +1,123 @@
+.SignUP {
+  position: relative;
+  height: 100vh;
+}
+
+.Whole_Page {
+  margin: 0;
+  padding: 0;
+  background-color: #373737;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.left--side {
+  gap: 3rem;
+}
+
+.Image_Container {
+  display: flex;
+  margin-left: 8rem;
+  width: 27rem;
+  height: 32rem;
+  overflow: hidden;
+  border-radius: 15rem 15rem 0 0;
+}
+
+.Image_Container > img {
+  width: 100%;
+  height: 100%;
+}
+
+.infoForm_signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.infoForm_signup > div {
+  display: flex;
+  gap: 0.5rem;
+  height: 2rem;
+  width: 80%;
+}
+
+.infoInput_signup {
+  border: none;
+  outline: none;
+  background-color: #373737;
+  color: #eff0f2;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+  margin-left: auto;
+}
+
+.signupForm {
+  height: 353;
+  width: 287;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  background-color: #2e2d2d;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.signupForm > div {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.h3_signup {
+  color: #eff0f2;
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.clickable {
+  color: #eff0f2;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  color: #999; /* Set the text color of the copyright notice */
+  font-size: 12px; /* Adjust the font size as needed */
+}
+
+.AuthText_signup:hover {
+  cursor: pointer;
+  color: #7c401d;
+  transform: scale(1.2);
+}
+
+.button1_signup {
+  width: 6rem;
+  height: 2rem;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: #838282;
+  transition: all 100ms ease-out;
+}
+
+.button1_signup:hover {
+  cursor: pointer;
+  background: transparent;
+  border: 4px solid #373737;
+}
+
+.form_footer {
+  align-items: end;
+}
